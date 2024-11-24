@@ -163,7 +163,7 @@ export default function AuthPage() {
               </div>
               <button type="submit" className="auth-button">{t("Authorization.login")}</button>
               <p className="switch-text">
-                {t("Authorization.no-account")} <span onClick={handleFlip}>{t("Authorization.register-link")}</span>
+                {t("Authorization.no-accaunt")} <span onClick={handleFlip}>{t("Authorization.register-link")}</span>
               </p>
             </form>
           </div>
